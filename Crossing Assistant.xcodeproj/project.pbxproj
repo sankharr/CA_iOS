@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C932AB0E2596FA2300643457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932AB0D2596FA2300643457 /* AppDelegate.swift */; };
+		C932AB102596FA2300643457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932AB0F2596FA2300643457 /* ViewController.swift */; };
+		C932AB132596FA2300643457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C932AB112596FA2300643457 /* Main.storyboard */; };
+		C932AB152596FA2500643457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C932AB142596FA2500643457 /* Assets.xcassets */; };
+		C932AB182596FA2500643457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C932AB162596FA2500643457 /* LaunchScreen.storyboard */; };
+		C932AB232596FA2500643457 /* Crossing_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932AB222596FA2500643457 /* Crossing_AssistantTests.swift */; };
+		C932AB2E2596FA2500643457 /* Crossing_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C932AB2D2596FA2500643457 /* Crossing_AssistantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C932AB1F2596FA2500643457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C932AB022596FA2300643457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C932AB092596FA2300643457;
+			remoteInfo = "Crossing Assistant";
+		};
+		C932AB2A2596FA2500643457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C932AB022596FA2300643457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C932AB092596FA2300643457;
+			remoteInfo = "Crossing Assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C932AB0A2596FA2300643457 /* Crossing Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossing Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C932AB0D2596FA2300643457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C932AB0F2596FA2300643457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C932AB122596FA2300643457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C932AB142596FA2500643457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C932AB172596FA2500643457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C932AB192596FA2500643457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C932AB1E2596FA2500643457 /* Crossing AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crossing AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C932AB222596FA2500643457 /* Crossing_AssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crossing_AssistantTests.swift; sourceTree = "<group>"; };
+		C932AB242596FA2500643457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C932AB292596FA2500643457 /* Crossing AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crossing AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C932AB2D2596FA2500643457 /* Crossing_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crossing_AssistantUITests.swift; sourceTree = "<group>"; };
+		C932AB2F2596FA2500643457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C932AB072596FA2300643457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C932AB1B2596FA2500643457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C932AB262596FA2500643457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C932AB012596FA2300643457 = {
+			isa = PBXGroup;
+			children = (
+				C932AB0C2596FA2300643457 /* Crossing Assistant */,
+				C932AB212596FA2500643457 /* Crossing AssistantTests */,
+				C932AB2C2596FA2500643457 /* Crossing AssistantUITests */,
+				C932AB0B2596FA2300643457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C932AB0B2596FA2300643457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C932AB0A2596FA2300643457 /* Crossing Assistant.app */,
+				C932AB1E2596FA2500643457 /* Crossing AssistantTests.xctest */,
+				C932AB292596FA2500643457 /* Crossing AssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C932AB0C2596FA2300643457 /* Crossing Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				C932AB0D2596FA2300643457 /* AppDelegate.swift */,
+				C932AB0F2596FA2300643457 /* ViewController.swift */,
+				C932AB112596FA2300643457 /* Main.storyboard */,
+				C932AB142596FA2500643457 /* Assets.xcassets */,
+				C932AB162596FA2500643457 /* LaunchScreen.storyboard */,
+				C932AB192596FA2500643457 /* Info.plist */,
+			);
+			path = "Crossing Assistant";
+			sourceTree = "<group>";
+		};
+		C932AB212596FA2500643457 /* Crossing AssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				C932AB222596FA2500643457 /* Crossing_AssistantTests.swift */,
+				C932AB242596FA2500643457 /* Info.plist */,
+			);
+			path = "Crossing AssistantTests";
+			sourceTree = "<group>";
+		};
+		C932AB2C2596FA2500643457 /* Crossing AssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C932AB2D2596FA2500643457 /* Crossing_AssistantUITests.swift */,
+				C932AB2F2596FA2500643457 /* Info.plist */,
+			);
+			path = "Crossing AssistantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C932AB092596FA2300643457 /* Crossing Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C932AB322596FA2500643457 /* Build configuration list for PBXNativeTarget "Crossing Assistant" */;
+			buildPhases = (
+				C932AB062596FA2300643457 /* Sources */,
+				C932AB072596FA2300643457 /* Frameworks */,
+				C932AB082596FA2300643457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crossing Assistant";
+			productName = "Crossing Assistant";
+			productReference = C932AB0A2596FA2300643457 /* Crossing Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C932AB1D2596FA2500643457 /* Crossing AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C932AB352596FA2500643457 /* Build configuration list for PBXNativeTarget "Crossing AssistantTests" */;
+			buildPhases = (
+				C932AB1A2596FA2500643457 /* Sources */,
+				C932AB1B2596FA2500643457 /* Frameworks */,
+				C932AB1C2596FA2500643457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C932AB202596FA2500643457 /* PBXTargetDependency */,
+			);
+			name = "Crossing AssistantTests";
+			productName = "Crossing AssistantTests";
+			productReference = C932AB1E2596FA2500643457 /* Crossing AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C932AB282596FA2500643457 /* Crossing AssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C932AB382596FA2500643457 /* Build configuration list for PBXNativeTarget "Crossing AssistantUITests" */;
+			buildPhases = (
+				C932AB252596FA2500643457 /* Sources */,
+				C932AB262596FA2500643457 /* Frameworks */,
+				C932AB272596FA2500643457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C932AB2B2596FA2500643457 /* PBXTargetDependency */,
+			);
+			name = "Crossing AssistantUITests";
+			productName = "Crossing AssistantUITests";
+			productReference = C932AB292596FA2500643457 /* Crossing AssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C932AB022596FA2300643457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SRR;
+				TargetAttributes = {
+					C932AB092596FA2300643457 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C932AB1D2596FA2500643457 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C932AB092596FA2300643457;
+					};
+					C932AB282596FA2500643457 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C932AB092596FA2300643457;
+					};
+				};
+			};
+			buildConfigurationList = C932AB052596FA2300643457 /* Build configuration list for PBXProject "Crossing Assistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C932AB012596FA2300643457;
+			productRefGroup = C932AB0B2596FA2300643457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C932AB092596FA2300643457 /* Crossing Assistant */,
+				C932AB1D2596FA2500643457 /* Crossing AssistantTests */,
+				C932AB282596FA2500643457 /* Crossing AssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C932AB082596FA2300643457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C932AB182596FA2500643457 /* LaunchScreen.storyboard in Resources */,
+				C932AB152596FA2500643457 /* Assets.xcassets in Resources */,
+				C932AB132596FA2300643457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C932AB1C2596FA2500643457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C932AB272596FA2500643457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C932AB062596FA2300643457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C932AB102596FA2300643457 /* ViewController.swift in Sources */,
+				C932AB0E2596FA2300643457 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C932AB1A2596FA2500643457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C932AB232596FA2500643457 /* Crossing_AssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C932AB252596FA2500643457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C932AB2E2596FA2500643457 /* Crossing_AssistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C932AB202596FA2500643457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C932AB092596FA2300643457 /* Crossing Assistant */;
+			targetProxy = C932AB1F2596FA2500643457 /* PBXContainerItemProxy */;
+		};
+		C932AB2B2596FA2500643457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C932AB092596FA2300643457 /* Crossing Assistant */;
+			targetProxy = C932AB2A2596FA2500643457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C932AB112596FA2300643457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C932AB122596FA2300643457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C932AB162596FA2500643457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C932AB172596FA2500643457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C932AB302596FA2500643457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C932AB312596FA2500643457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C932AB332596FA2500643457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crossing Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "srr.Crossing-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C932AB342596FA2500643457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crossing Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "srr.Crossing-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C932AB362596FA2500643457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crossing AssistantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "srr.Crossing-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossing Assistant.app/Crossing Assistant";
+			};
+			name = Debug;
+		};
+		C932AB372596FA2500643457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crossing AssistantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "srr.Crossing-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossing Assistant.app/Crossing Assistant";
+			};
+			name = Release;
+		};
+		C932AB392596FA2500643457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crossing AssistantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "srr.Crossing-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crossing Assistant";
+			};
+			name = Debug;
+		};
+		C932AB3A2596FA2500643457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Crossing AssistantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "srr.Crossing-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crossing Assistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C932AB052596FA2300643457 /* Build configuration list for PBXProject "Crossing Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C932AB302596FA2500643457 /* Debug */,
+				C932AB312596FA2500643457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C932AB322596FA2500643457 /* Build configuration list for PBXNativeTarget "Crossing Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C932AB332596FA2500643457 /* Debug */,
+				C932AB342596FA2500643457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C932AB352596FA2500643457 /* Build configuration list for PBXNativeTarget "Crossing AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C932AB362596FA2500643457 /* Debug */,
+				C932AB372596FA2500643457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C932AB382596FA2500643457 /* Build configuration list for PBXNativeTarget "Crossing AssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C932AB392596FA2500643457 /* Debug */,
+				C932AB3A2596FA2500643457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C932AB022596FA2300643457 /* Project object */;
+}
